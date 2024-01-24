@@ -1,0 +1,99 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* CALENDAR  */
+.calendar {
+  text-align: center;
+  background-color: blue;
+  color: aqua;
+  padding: 1px;
+  border: solid aqua;
+  color: aqua;
+}
+.calendar h1 {
+  font-size: 40px;
+}
+
+/* CONTAINER  */
+.container {
+  background: turquoise;
+  border: solid aqua;
+  padding: 15px;
+  color: white;
+  background-color: blue;
+}
+.container p {
+  text-align: center;
+  color: aqua;
+}
+
+/* CONTAINER MONTH */
+.month{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: solid blue;
+    background-color: aqua;
+}
+
+/* TABLE */
+table {
+    border: 6px solid crimson;
+    border-collapse: collapse;
+    border: 5px solid black;
+    float: left;
+margin: 25px;
+  }
+  /* TABLE TH */
+  table th {
+    background-color: darkblue;
+    color: white;
+
+    background-color: blue; 
+  }
+  /* TH, TD */
+  th,
+  td {
+    border: 3px solid black;
+    padding: 2px;
+    text-align: center;
+    border-spacing: 20px;
+    background-color: Turquoise;
+  }
+
+/* footer */
+footer {
+    border: solid aqua;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+  }
+  footer span a {
+    color: aqua;
+    text-decoration: none;
+  }
+  footer span a:hover {
+    text-decoration: underline;
+  }
